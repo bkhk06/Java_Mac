@@ -162,3 +162,9 @@ from sklearn.linear_model import Ridge
 ridge=Ridge().fit(X_train,y_train)
 print("Ridge training set score: %f" % ridge.score(X_train,y_train))
 print("Ridge test set score: %f" % ridge.score(X_test,y_test))
+
+from sklearn.linear_model import Lasso
+lasso = Lasso().fit(X_train,y_train)
+print("training set score: %f" % lasso.score(X_train,y_train))
+print("test set score: %f" % lasso.score(X_test,y_test))
+print("number of features used: %d" % np.sum(lasso.coef_!=0))
