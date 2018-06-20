@@ -160,11 +160,37 @@ print("boston test set score_:%f"% lr.score(X_test,y_test))
 from sklearn.linear_model import Ridge
 
 ridge=Ridge().fit(X_train,y_train)
-print("Ridge training set score: %f" % ridge.score(X_train,y_train))
-print("Ridge test set score: %f" % ridge.score(X_test,y_test))
+print("Ridge training set score: {:.2f}".format(ridge.score(X_train,y_train)))
+print("Ridge test set score: {:.2f}".format(ridge.score(X_test,y_test)))
+
+ridge10=Ridge(alpha=10).fit(X_train,y_train)
+print("Ridge of alpha=10 training set score: {:.2f}".format(ridge10.score(X_train,y_train)))
+print("Ridge of alpha=10 test set score: {:.2f}".format(ridge10.score(X_test,y_test)))
+
+ridge01=Ridge(alpha=0.1).fit(X_train,y_train)
+print("Ridge of alpha=0.1 training set score: {:.2f}".format(ridge01.score(X_train,y_train)))
+print("Ridge of alpha=0.1 test set score: {:.2f}".format(ridge01.score(X_test,y_test)))
+
+
+plt.plot(ridge.coef_, 's',label="Ridge alpha=1")
+plt.plot(ridge.coef_, '^',label="Ridge alpha=10")
+plt.plot(ridge.coef_, 'v',label="Ridge alpha=0.1")
+
+plt.plot(lr.coef_,'o',label="linearRegression")
+plt.xlabel("Coefficient index")
+plt.ylabel("Coefficient  magnitude")
+plt.hlines(0,0,len(lr.coef_))
+plt.ylim(-30,30)
+plt.legend()
+plt.show()
+
+mglearn.plots.plot_ridge_n_samples()
+plt.show()
+
 
 from sklearn.linear_model import Lasso
 lasso = Lasso().fit(X_train,y_train)
 print("training set score: %f" % lasso.score(X_train,y_train))
 print("test set score: %f" % lasso.score(X_test,y_test))
 print("number of features used: %d" % np.sum(lasso.coef_!=0))
+
