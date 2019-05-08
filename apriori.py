@@ -11,6 +11,7 @@ def createC1(dataSet):
     C1.sort()
     return list(map(frozenset,C1))
 
+
 def scanD(D,Ck,minSupport):
     ssCnt = {}
     for tid in D:
