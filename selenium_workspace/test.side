@@ -1,0 +1,56 @@
+{
+  "id": "8feffeb4-c4ba-46bb-817e-f5f9525cfbaa",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://www.baidu.com",
+  "tests": [{
+    "id": "dbb56227-3912-45f6-b77e-a9a5a2db8009",
+    "name": "Untitled",
+    "commands": [{
+      "id": "6fdca20a-6fd9-408c-9bba-c1fa19209b18",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ca96d31-7a25-4568-89d2-6bf00a4bfc37",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "740x695",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5957c5c-d7f3-44bc-aea0-73c664db93b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=kw",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "381265ae-e673-41a6-9bca-0bd62e72e4f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=kw",
+      "targets": [],
+      "value": "python"
+    }, {
+      "id": "2b14818e-b2dc-4a67-9e2b-5e77db03c1c6",
+      "comment": "",
+      "command": "submit",
+      "target": "id=form",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3bf9b285-656b-4cb3-8980-341f5c23e9d7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dbb56227-3912-45f6-b77e-a9a5a2db8009"]
+  }],
+  "urls": ["https://www.sohu.com/", "https://www.baidu.com/"],
+  "plugins": []
+}
