@@ -145,3 +145,130 @@ console.warn: "Error while detaching the thread front: 'detach' request packet t
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1560940191243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Liu.DA\\AppData\\Local\\Temp\\rust_mozprofile.rvXhNhGcXDWH"
+1560940192097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560940192098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560940192098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560940195589	Marionette	INFO	Listening on port 61992
+1560940195599	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 38840, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 38840, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530012,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+[Child 27700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2770[Parent 38840, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 37404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 37404, 1560940220155	Marionette	INFO	Stopped listening on port 61992
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560940252327	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Liu.DA\\AppData\\Local\\Temp\\rust_mozprofile.W2sogYsjn0Ts"
+1560940252872	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560940252873	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560940252873	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560940256709	Marionette	INFO	Listening on port 62122
+1560940256768	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js, line 52: Error: Syntax error, unrecognized expression: .c-container /deep/ .c-container
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js, line 52: Error: Syntax error, unrecognized expression: .c-container /deep/ .c-container
+1560940326060	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Liu.DA\\AppData\\Local\\Temp\\rust_mozprofile.URc51j2wFgUA"
+1560940326576	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560940326577	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560940326577	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560940330458	Marionette	INFO	Listening on port 62294
+1560940330502	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js, line 52: Error: Syntax error, unrecognized expression: .c-container /deep/ .c-container
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js, line 52: Error: Syntax error, unrecognized expression: .c-container /deep/ .c-container
+JavaScript error: https://www.seleniumhq.org/tophatpromo.js, line 1: ReferenceError: $ is not defined
+JavaScript error: https://www.seleniumhq.org/tophatpromo.js, line 1: ReferenceError: $ is not defined
+[Child 15784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 157[Parent 10504, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560940370789	Marionette	INFO	Stopped listening on port 62294
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560940629141	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Liu.DA\\AppData\\Local\\Temp\\rust_mozprofile.8lq44xklpNIP"
+1560940629663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560940629663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560940629664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560940633529	Marionette	INFO	Listening on port 62860
+1560940633584	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560940636525	Marionette	INFO	Stopped listening on port 62860
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 34020, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 40976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 40976, Chrome_ChildThread] WARNING: pipe error:
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 22184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22184, C[GPU 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+339
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560940660656	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Liu.DA\\AppData\\Local\\Temp\\rust_mozprofile.URAweykVKnH2"
+1560940661217	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560940661217	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560940661217	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560940664694	Marionette	INFO	Listening on port 62958
+1560940665003	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js, line 52: Error: Syntax error, unrecognized expression: .c-container /deep/ .c-container
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js, line 52: Error: Syntax error, unrecognized expression: .c-container /deep/ .c-container
+1560940678054	Marionette	INFO	Stopped listening on port 62958
+[Parent 26868, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 38024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3802[Parent 26868, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560820494/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2368, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
